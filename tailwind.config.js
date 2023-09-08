@@ -1,5 +1,8 @@
 tailwind.config = {
 	theme: {
+		screen: {
+			md: { max: '768px' },
+		},
 		extend: {
 			spacing: {
 				r1: '10rem',
